@@ -1,0 +1,43 @@
+.form-label{
+    float: left;
+}
+input{
+    width:50%
+}
+.btn{
+    float: left;
+}
+
+.alreadyHaveAccount,.newUser{
+    float:right;
+    cursor: pointer;
+}
+.alreadyHaveAccount:hover,.newUser:hover{
+    color:green
+}
+.errormsg{
+    color:red;
+    text-align: left;
+    font-size: small;
+    font-weight: 600;
+}
+ i{
+     position: relative;
+     right: 23px;
+ }
+ input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+
+  .buttons{
+      /* width:20%;
+      margin: 0 auto; */
+      position: relative;
+      left: 43%;
+  }
